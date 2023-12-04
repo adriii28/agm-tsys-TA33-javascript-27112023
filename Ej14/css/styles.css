@@ -1,0 +1,126 @@
+body{ 
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+#calculadora{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 2fr 2fr 2fr  1fr;
+}
+
+#screen {
+    grid-column: 2 / 6;
+    grid-row: 2 / 3;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#screen_input{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cont-btn0{
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+#cont-btnC{
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;  
+}
+
+#cont-btnSuma{
+    grid-column: 5 / 6;
+    grid-row: 6 / 7;  
+}
+
+#cont-btnResta{
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;  
+}
+
+#cont-btnMulti{
+    grid-column: 5 / 6;
+    grid-row: 4 / 5;  
+}
+
+#cont-btnDivision{
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;  
+}
+
+#cont-btnEquals{
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+}
+
+#cont-btn1{
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+#cont-btn2{
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+#cont-btn3{
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
+
+#cont-btn4{
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#cont-btn5{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+#cont-btn6{
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+#cont-btn7{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+#cont-btn8{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+#cont-btn9{
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
