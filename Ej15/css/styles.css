@@ -1,0 +1,40 @@
+body{ 
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 1fr;
+}
+
+#container-imgs{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin: auto;
+}
+
+#container-main-img{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#big-photo{
+    width: 800px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.small-photo{
+    width: 200px;
+    height: 150px;
+    cursor: pointer;
+    margin: 20px;
+}
+
